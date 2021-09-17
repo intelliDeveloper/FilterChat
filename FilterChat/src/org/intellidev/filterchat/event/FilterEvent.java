@@ -16,9 +16,7 @@ public class FilterEvent implements Listener {
 		if(!(player.hasPermission("filterchat.bypass"))) {
 		new FilterSystem(player, message);
 		
-		if(FilterSystem.isBlocked) {
-			e.setCancelled(true);
-		}
+		if(FilterSystem.isBlocked) { e.setCancelled(true); }
 		}
 	
 	}
