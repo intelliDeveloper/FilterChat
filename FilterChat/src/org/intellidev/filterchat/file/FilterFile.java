@@ -9,8 +9,6 @@ public class FilterFile {
 	
 	
 	public static FilterChat fc = FilterChat.getPlugin(FilterChat.class);
-
-
 	
 	public static void setupFiles() {
 		
@@ -43,9 +41,7 @@ public class FilterFile {
 
 		for(String words : bwconfig.getStringList("blocked-words")) {
 			FilterSystem.blockedwords.add(words);
-		}
-		
-		
+		}	
 	}
 	
 	public static String getResponse() {
