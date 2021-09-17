@@ -1,0 +1,7 @@
+main: org.intellidev.filterchat.FilterChat
+version: 1.0
+name: FilterChat
+
+commands:
+  filter:
+    aliases: [filterchat]
