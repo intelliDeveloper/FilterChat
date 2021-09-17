@@ -4,18 +4,12 @@ import java.io.File;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.intellidev.filterchat.FilterChat;
-import org.intellidev.filterchat.modules.FilterSystem;
 
 public class FilterFile {
 	
 	
 	public static FilterChat fc = FilterChat.getPlugin(FilterChat.class);
 
-	FilterSystem fs;
-	
-	public FilterFile(FilterSystem fs) {
-		this.fs = fs;
-	}
 
 	
 	public static void setupFiles() {
