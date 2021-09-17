@@ -13,7 +13,7 @@ public class FilterChat extends JavaPlugin {
 	public void onDisable() {
 
 		//saving the words
-        FilterFile.saveWords();
+       	        FilterFile.saveWords();
 
 	}
 
