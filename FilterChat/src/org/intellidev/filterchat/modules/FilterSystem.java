@@ -51,7 +51,7 @@ public class FilterSystem {
 		return this.message;
 	}
 	
-	public boolean getState() {
+	public static boolean getState() {
 		return isBlocked;
 	}
 	
