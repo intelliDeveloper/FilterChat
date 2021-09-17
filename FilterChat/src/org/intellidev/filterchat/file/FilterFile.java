@@ -4,6 +4,7 @@ import java.io.File;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.intellidev.filterchat.FilterChat;
+import org.intellidev.filterchat.modules.FilterSystem;
 
 public class FilterFile {
 	
